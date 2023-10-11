@@ -21,7 +21,7 @@
 <body>
     <div class="wrapper">
         <div class="header py-2">
-            <div class="container-fluid d-flex gap-2 py-1" style="height: 100%; background: white;">
+            <div class="container-fluid d-flex gap-3 py-1" style="height: 100%; background: white;">
                 <div class="logo">
                     <img id="logo_mb" src="img/mobile-logo.png" alt="">
                     <img id="logo_desk" src="img/logo.svg" alt="">
@@ -29,20 +29,55 @@
                 <input type="search" placeholder="prova a cercare" class="border-0 rounded px-2"
                     style="background-color: darkgrey;">
 
-                <div id="my_bell" class="logo d-flex justify-content-around align-items-center"
-                    style="font-size: 1.5rem; ">
+                <div class="logo d-flex justify-content-around align-items-center" style="font-size: 1.5rem; ">
                     <i id="desk_icon" class="fa-solid fa-list-ul" style="color: gray;"></i>
                     <i id="desk_icon" class="fa-solid fa-circle-question" style="color: gray;"></i>
                     <i id="desk_icon" class="fa-solid fa-ellipsis-vertical" style="color: gray;"></i>
                     <i class="fa-solid fa-bell" style="color: orange;"></i>
-                    
+
                 </div>
             </div>
         </div>
 
         <div class="main">
-            <div class="sidebar"></div>
-            <div class="content"></div>
+            <div class="sidebar d-flex flex-column justify-content-between">
+                <div class="side_up d-flex justify-content-around px-2">
+                    <div class="side_icon">
+                        <i class="fa-solid fa-house"></i>
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <i class="fa-solid fa-signal"></i>
+                    </div>
+                    <div class="side_name">
+                        <span>Home</span>
+                        <span>Stats</span>
+                        <span>Signals</span>
+                    </div>
+                </div>
+                <div class="side_down d-flex justify-content-around px-2">
+                    <div class="side_icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="side_name">
+                        <span>Admin</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div id="hero" class="container-fluid" style="background-color: rgb(0, 51, 255);">
+                    <div class="row" style="width: 100%; color: white;">
+                        <div class="col-6 d-flex align-items-center gap-4">
+                            <span>Nuovo Studente</span>
+                            <button type="button" class="btn btn-outline-light">+</button>
+                        </div>
+                        <div class="col-7">
+                            <h3 style="display: inline-block;">Boolean</h3>
+                            <span class="badge rounded-pill text-bg-primary">Primary</span>
+                            <span class="badge rounded-pill text-bg-primary">Primary</span>
+                        </div>
+                        <div class="col-9"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

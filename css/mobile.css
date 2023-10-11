@@ -48,7 +48,29 @@
     width: 80px;
     height: 100%;
     /* debug */
-    background-color: lightskyblue;
+    background-color: darkblue;
+}
+
+.side_up{
+    height: 160px;
+}
+
+.side_down{
+  height: 80px;  
+}
+
+.side_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.side_name{
+    display: none
 }
 
 .content{
