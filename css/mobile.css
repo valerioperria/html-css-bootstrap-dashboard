@@ -15,7 +15,27 @@
     width: 100%;
     height: 80px;
     /* debug */
-    background-color: bisque;
+    background-color: lightgray;
+}
+
+.logo{
+    height: 100%;
+    width: 52px;
+    flex-shrink: 0;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#logo_desk, #desk_icon{
+    display: none;
+}
+
+.header input{
+    width: 100%;
+    flex-grow: 1;
 }
 
 .main{

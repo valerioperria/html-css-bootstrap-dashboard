@@ -1,8 +1,21 @@
 @media screen and (min-width: 768px) {
-    
+
     .sidebar{
         width: 140px;
     }
     
+    .logo{
+        height: 100%;
+        width: 133px;
+        flex-shrink: 0;
+    }
+    
+    #logo_mb{
+        display: none;
+    }
+    
+    #logo_desk, #desk_icon{
+        display: block;
+    }
 }
 
