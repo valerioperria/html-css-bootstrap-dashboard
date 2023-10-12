@@ -1,40 +1,7 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
-    
-    
-    .logo{
-        height: 100%;
-        width: 180px;
-        flex-shrink: 0;
-    }
-    
-    #logo_mb{
-        display: none;
-    }
-    
-    #logo_desk, #desk_icon{
-        display: block;
-    }
-
-    .sidebar{
+    #sidebar {
         width: 140px;
+        background-image: url(/img/sidebar-bg.png);
     }
-
-    .side_name{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: space-around;
-        height: 100%;
-        color: white;
-    }
-
-
-
-
-
-
-
-
 }
-
